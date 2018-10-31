@@ -1,0 +1,60 @@
+body {
+  background: seashell;
+}
+.mission-statement {
+
+  width: 100%;
+}
+
+.mission-img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+  }
+
+.mission-statement-slogan {
+  position:relative;
+  bottom: 195px;
+  left: 650px;
+  font-family: 'Special Elite', cursive;
+  font-size: 60px;
+  color: seashell;
+  text-shadow: 3px 3px 1px black;
+}
+
+.mission-logo-img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 250px
+}
+
+li {
+  font-family: 'Special Elite', cursive;
+  display: inline-block;
+  position: fixed;
+  width: 80px;
+}
+
+.about-me {
+  width: 850px;
+  margin: 0 auto;
+}
+
+.about-me img {
+  display: inline-block;
+}
+
+.about-me p {
+  display: inline-block;
+  font-family: 'Special Elite', cursive;
+  width: 400px;
+}
+
+.container {
+    min-height: 10em;
+    display: table-cell;
+    vertical-align: middle
+    background-color: red;
+}
