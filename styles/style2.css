@@ -85,3 +85,14 @@ main {
 .mission-statement p {
 
 }
+
+.about p::first-letter {
+    	float: left;
+    	width: 0.7em;
+    	font-size: 400%;
+    	font-family: 'runes';
+    	line-height: 80%;
+}
+
+h2 {
+	font-family: 'runes';
