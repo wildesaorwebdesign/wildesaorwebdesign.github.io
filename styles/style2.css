@@ -71,8 +71,12 @@ main {
 	margin-left: auto;
 	margin-right: auto;
 }
-.loho {
+.logo {
 	background-color: green;
+}
+
+.logo h1 {
+	font-family: 'runes'
 }
 .logo img {
 	display: block;
