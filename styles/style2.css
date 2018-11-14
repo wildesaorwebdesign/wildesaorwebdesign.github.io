@@ -15,6 +15,19 @@ body {
 	background-color: seashell;
 
 }
+h1 {
+	font-family: 'runes';
+	text-align: center;
+}
+h2 {
+	background-color: indianred;
+	font-family: 'runes';
+	text-align: center;
+	padding: 0px 0px 0px 0px;
+	margin-bottom: 0px;
+	border-bottom: 2px solid black;
+
+}
 
 header , header ul {
     margin: 0 auto;
@@ -24,27 +37,45 @@ header , header ul {
 header {
 	text-align: center;
     background-color: darksalmon;
-    padding: 15px 0px 15px 0px;
+   
+}
+
+header ul {
+	background-color: indianred;
+	margin:0px auto;
+	padding: 0px 0px 0px 0px;
+
 }
 
 header ul li {
-    display: inline;
-    width: 10px;
+	display: inline;
     background-color: indianred;
-    padding: 5px;
+    
 }
 
 header li {
+	
 	font-family: 'runes';
 	font-size: larger;
+	padding: 0px 0px;
+	margin: 5px 10px 5px 10px;
+	padding: 2px 4px 2px 4px;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+}
+
+header section {
+	padding: 0px;
+	margin: 0px;
 }
 
 main {
-	margin: 30px 150px 0px 250px;
+	margin: 30px 250px 0px 250px;
 }
 
 .mission-statement {
-	margin: 0 0 0 0;
+	margin: 0 0 350px 0;
 	padding: 0 0 0 0;
 	position: relative;
 	height: 350px;
@@ -71,13 +102,7 @@ main {
 	margin-left: auto;
 	margin-right: auto;
 }
-.logo {
-	background-color: green;
-}
 
-.logo h1 {
-	font-family: 'runes'
-}
 .logo img {
 	display: block;
 	height: 223px;
@@ -90,6 +115,19 @@ main {
 
 }
 
+.about {
+	width: 60%;
+	background-color: darksalmon;
+	margin: 0 auto;
+	border-bottom-left-radius: 28px 26px;
+	border-bottom-right-radius: 7px 14px;
+	padding: 25px 25px;
+	border: 1px black solid;
+	border-bottom-left-radius: 28px 26px;
+	border-bottom-right-radius: 7px 14px;a
+
+}
+
 .about p::first-letter {
     	float: left;
     	width: 0.7em;
@@ -98,5 +136,73 @@ main {
     	line-height: 80%;
 }
 
-h2 {
-	font-family: 'runes';
+
+.about-me p {
+	text-align: justify;
+	margin: 20px 20px;
+    width: 80%;
+    height: 270px;
+    vertical-align: middle;
+    padding: 0 0 0 0;
+    
+}
+
+.about-me2 {
+    background-color: aquamarine;
+}
+.about-me2 p {
+	text-align: justify;
+	margin: 20px 20px;
+    width: 80%;
+    height: 270px;
+    vertical-align: middle;
+    padding: 0 0 0 0;
+    direction: rtl;
+    
+}
+
+.rtl-punctuation {
+    float: right;
+}
+
+.about-me figure {
+	float:left;
+    padding: 0 0 0 0;
+    margin-top: 0;
+}
+
+.about-me2 figure{
+	float: right;
+    padding: 0 0 0 0;
+    margin-top: 0;
+}
+
+.about-me3 figure{
+	float: left;
+    padding: 0 0 0 0;
+    margin-top: 0;
+}
+
+.crafts {
+    background-color: darksalmon;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+        
+}
+
+.crafts section {
+    display: inline-block;
+    width: 270px;
+    height: 270px;
+    vertical-align: top;
+    padding:20px;
+    margin-top: 25px;
+    border: 1px solid black;
+}
+
+
+
+.craft1{
+    background-color: aquamarine;
+}
